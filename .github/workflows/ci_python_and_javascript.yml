@@ -42,7 +42,7 @@ jobs:
           run: npx eslint . --ext .js,.jsx,.ts,.tsx
 
     tesing:
-      name: testing
+      name: testing python
       needs: linting_eslint
       runs-on: ubuntu-latest
       steps:
