@@ -1,4 +1,4 @@
-name: CI Python and Javacript
+name: CI Javacript
 
 on:
     push:
