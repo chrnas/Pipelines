@@ -39,7 +39,7 @@ jobs:
         - name: Install dependencies
           run: npm ci
         - name: Lint with ESlint
-          run: eslint . --ext .js,.jsx,.ts,.tsx
+          run: npx eslint . --ext .js,.jsx,.ts,.tsx
 
     tesing:
       name: testing
