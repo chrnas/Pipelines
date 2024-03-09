@@ -10,7 +10,7 @@ on:
     
 jobs:
     linting_flake:
-        name: linting
+        name: linting python
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4.1.1
