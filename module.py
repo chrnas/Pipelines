@@ -17,4 +17,4 @@ def add(a, b):
     Returns:
         int: The sum of the two numbers.
     """
-    return a + b
+    return a + b.
